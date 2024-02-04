@@ -5,7 +5,7 @@ function CreditCard(props) {
   const isSide = props.side ? "back" : "front";
   const background = `./images/bg-card-${isSide}.png`;
 
-  //making my inputs prettier
+
   const name = props.name || "Jane Appleseed";
   const month = props.month?.slice(0, 2).padStart(2, "0");
   const year = props.year?.slice(0, 2).padStart(2, "0");
